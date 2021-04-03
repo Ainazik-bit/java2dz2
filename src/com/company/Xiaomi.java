@@ -18,8 +18,9 @@ public class Xiaomi extends Phone implements Printable{
     }
 
     @Override
-    public void Print() {
+    public Phone Print() {
         System.out.println("Название " + getName() + "\nЦена " + getPrice() + "\nОперационная система " + OS);
 
+        return null;
     }
 }

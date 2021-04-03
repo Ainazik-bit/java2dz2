@@ -1,6 +1,6 @@
 package com.company;
 
-public class Phone implements Printable{
+public class Phone {
 
     private String name;
     private int price;
@@ -29,9 +29,4 @@ public class Phone implements Printable{
         this.price = price;
     }
 
-    @Override
-    public void Print() {
-        System.out.println("Название " + getName() + "\nЦена "+ price);
-
-    }
 }

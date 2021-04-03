@@ -18,8 +18,9 @@ public class Apple extends Phone implements Printable{
     }
 
     @Override
-    public void Print() {
+    public Phone Print() {
         System.out.println("Название " + getName() + "\nЦена " + getPrice() + "\nПамять " + memory);
 
+        return null;
     }
 }
